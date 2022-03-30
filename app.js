@@ -70,7 +70,7 @@ app.set('view engine', '.hbs')
 // Sessions
 app.use(
   session({
-    secret: 'keyboard cat',
+    secret: 'keyboard cats',
     resave: false,
     saveUninitialized: false,
     store: MongoStore.create({mongoUrl: process.env.MONGO_URI,}),
